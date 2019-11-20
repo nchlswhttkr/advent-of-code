@@ -9,7 +9,6 @@ export YEAR=`date +%Y`
 # export DAY=`date +%d` # UTC time, so no math needed to adjust the day number
 export DAY=0
 
-cd /github/workspace/public
 mkdir -p leaderboards/$YEAR
 curl https://adventofcode.com/$YEAR/leaderboard/private/view/$LEADERBOARD_ID.json \
     --cookie "session=$OAUTH_SESSION_TOKEN" \
