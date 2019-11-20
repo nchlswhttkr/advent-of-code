@@ -12,7 +12,7 @@ export DAY=0
 mkdir -p leaderboards/$YEAR
 curl https://adventofcode.com/$YEAR/leaderboard/private/view/$LEADERBOARD_ID.json \
     --cookie "session=$OAUTH_SESSION_TOKEN" \
-    > loeaderboards/$YEAR/day-$DAY.json
+    > leaderboards/$YEAR/day-$DAY.json
 
 git config --global user.name "Nicholas Whittaker"
 git config --global user.email "26531118+nchlswhttkr@users.noreply.github.com"
