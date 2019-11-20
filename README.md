@@ -26,15 +26,15 @@ Now I did say there will be prizes. I'll be offering a few small cash prizes. Th
 
 The following prizes are up for grabs based on your score/placement at the end of the event.
 
-- **\$50** for the 1st placed participant
-- **\$40** for the 2nd placed participant
-- **\$30** for the 3rd placed participant
+- **\$30** for the 1st placed participant
+- **\$25** for the 2nd placed participant
+- **\$20** for the 3rd placed participant
 - **\$15** for the 4th/5th placed participants
 
 Additionally, I'm offering prizes if you participate but don't end up placing.
 
-- **\$5** for completing (getting a gold star) at least 5 days
 - **\$10** for completing (getting a gold star) at least 10 days
+- **\$5** for completing (getting a gold star) at least 5 days
 
 I'll be taking results at midnight on the new year, so you've got the whole of December to complete as many problems as you can find the time to.
 
@@ -45,3 +45,5 @@ If you think I've missed someone, let me know I'll forward them this invite.
 Best of luck, and may the most diligent coders find success!
 
 Regards, Nicholas
+
+PS - _Nicholas, how did you get this email? If I haven't asked you directly, I probably got it from your website, LinkedIn, GitHub or from your Git commit history_

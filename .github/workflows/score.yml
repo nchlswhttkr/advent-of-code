@@ -1,0 +1,16 @@
+name: Get daily scores from leaderboard
+
+on:
+  schedule:
+    - cron: "* 14 * 12 *" # midnight (AEST) at the end of each day in December
+
+jobs:
+  save-leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./.github/actions/save-leaderboard
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OAUTH_SESSION_TOKEN: ${{ secrets.OAUTH_SESSION_TOKEN }}
+          LEADERBOARD_ID: 432888

@@ -1,0 +1,21 @@
+name: Save leaderboard
+description: Read from the leaderboard and save the scores in a timestamped file
+
+inputs:
+  GITHUB_TOKEN:
+    description: A token used to authenticate against GitHub to push commits
+    required: true
+  OAUTH_SESSION_TOKEN:
+    description: The session token used for OAuth with Advent of Code
+    required: true
+  LEADERBOARD_ID:
+    description: The ID of the Advent of Code leaderboard to read scores from
+    required: true
+
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.GITHUB_TOKEN }}
+    - ${{ inputs.OAUTH_SESSION_TOKEN }}
+    - ${{ inputs.LEADERBOARD_ID }}
