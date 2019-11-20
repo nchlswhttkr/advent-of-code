@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt update -qqy && apt install -qqy git
+RUN apt update -qqy && apt install -qqy curl git
 
 ADD entrypoint.sh /
 RUN chmod +x /entrypoint.sh
