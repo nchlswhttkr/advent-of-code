@@ -6,8 +6,7 @@ export GITHUB_TOKEN=$1
 export OAUTH_SESSION_TOKEN=$2
 export LEADERBOARD_ID=$3
 export YEAR=`date +%Y`
-# export DAY=`date +%d` # UTC time, so no math needed to adjust the day number
-export DAY=0
+export DAY=`date +%d` # UTC time, so no math needed to adjust the day number
 
 mkdir -p leaderboards/$YEAR
 curl https://adventofcode.com/$YEAR/leaderboard/private/view/$LEADERBOARD_ID.json \

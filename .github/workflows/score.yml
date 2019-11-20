@@ -1,7 +1,6 @@
 name: Get daily scores from leaderboard
 
 on:
-  push:
   schedule:
     - cron: "* 14 * 12 *" # midnight (AEST) at the end of each day in December
 
