@@ -16,6 +16,7 @@ curl https://adventofcode.com/$YEAR/leaderboard/private/view/$LEADERBOARD_ID.jso
 
 git config --global user.name "Nicholas Whittaker"
 git config --global user.email "26531118+nchlswhttkr@users.noreply.github.com"
+git checkout master
 git add leaderboards/
 git commit -m "Add leaderboard for day $DAY, $YEAR"
 git push https://nchlswhttkr:$GITHUB_TOKEN@github.com/nchlswhttkr/advent-of-code.git master
