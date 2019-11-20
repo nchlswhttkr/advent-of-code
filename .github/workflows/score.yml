@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ./.github/actions/save-leaderboard
+      - uses: ./.github/save-leaderboard
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OAUTH_SESSION_TOKEN: ${{ secrets.OAUTH_SESSION_TOKEN }}
