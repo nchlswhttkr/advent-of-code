@@ -1,5 +1,7 @@
 # Advent of Code 2019
 
+Scraping my private leaderboard for Advent of Code at the end of each day in December with GitHub Actions.
+
 https://adventofcode.com
 
 ---
@@ -8,11 +10,11 @@ https://adventofcode.com
 
 Hey!
 
-The end of the year has come around and I've been thinking to organising an event with all of the amazing folks in IT I've met over the last few years. However, the logistics of bringing together well over 50 people is quite challenging, especially when some now live interstate and even overseas! So I'm organising something you can be a part of these holidays, even if you're now living away from Melbourne or running to a different schedule.
+The end of the year has come around and I've been thinking of organising an event with all of the amazing folks in IT I've met over the last few years. However, the logistics of bringing together well over 50 people is quite challenging, especially when some now live interstate and even overseas! So I'm organising something you can be a part of these holidays, even if you're now living away from Melbourne or running to a different schedule.
 
 I'd love if you joined me this year for the [Advent of Code](https://adventofcode.com). It's an annual coding challenge that runs through December, where (small) coding problems open up each day in the lead up to Christmas.
 
-I'm setting a few milestones that come with small rewards, that you can use to do a little bit of good with this holiday season. If you can complete a few problems over the month, there'll be something for you!
+I'm setting a few milestones that come with small rewards, which you can use to do a little bit of good with this holiday season. If you can complete a few problems over the month, there'll be something for you!
 
 - **\$5** for completing (getting a gold star) 5+ days
 - **\$10** for completing (getting a gold star) 10+ days
@@ -51,6 +53,6 @@ Regards, Nicholas
 
 ![Animation of Pokemon celebrating together](https://media.giphy.com/media/MhHXeM4SpKrpC/source.gif)
 
-PS - _Nicholas, how did you get this email? If I haven't asked you directly, I probably got it from your website, LinkedIn, GitHub or from your Git commit history - asking everyone via IM can get a bit chaotic!_
+PS - Nicholas, how did you get this email? If I haven't asked you directly, I probably got it from your website, LinkedIn, GitHub or from your Git commit history - asking everyone via IM got a bit too chaotic!
 
 PPS - _#SponsorsedPost If you like podcasts, you may be interested in [Zappcast](https://zappcast.com/), a soon-to-launch tech/coding podcast from several of my friends in Monash CS!_
