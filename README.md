@@ -4,6 +4,10 @@ Scraping my private leaderboard for Advent of Code at the end of each day in Dec
 
 https://adventofcode.com
 
+```sh
+node harvest-stats.js <year>
+```
+
 ---
 
 **Join me for the Advent of Code this December!**
@@ -56,3 +60,59 @@ Regards, Nicholas
 PS - Nicholas, how did you get this email? If I haven't asked you directly, I probably got it from your website, LinkedIn, GitHub or from your Git commit history - asking everyone via IM got a bit too chaotic!
 
 PPS - _#SponsorsedPost If you like podcasts, you may be interested in [Zappcast](https://zappcast.com/), a soon-to-launch tech/coding podcast from several of my friends in Monash CS!_
+
+---
+
+**Thanks for being a part of the Advent of Code 2019**
+
+Hey,
+
+Welcome to 2020! The new year marks the end of the Advent of Code challenge, and I'd like thank you for being a part of it!
+
+The Advent of Code was something I was greatly looking forward to this year, and opening it up to my friends has made the experience even more memorable.
+
+To mention a few of my highlights from this challenge
+
+- Patrick (BlueyNeilo) sneaking his way into the top 3 soon after Christmas, having spent the month close on the frontrunners' tails
+- Katie joining in halfway through the month and proceeding to blitz her way through two weeks' worth of problems
+- All of the conversations I've had with everyone who's reached out to me since the start of the challenge - it means a lot to get contact from people I don't see too often these days
+
+From the invitation I sent out to ~80 people, it made it past the spam filter for 21 of them (including you!), who joined my leaderboard. Now we're at the end, after toiling through the daily problems.
+
+Whether this challenge was an opportunity for you to push yourself or a bit of entertainment in the evening after work, I hope you've enjoyed it as much as me!
+
+For those interested, I have the final statistics!
+
+- 22 people joined my leaderboard!
+- 12 people got at least ten stars!
+- 7 people got at least twenty stars!
+- 2 people got all fifty stars!
+- 363 stars obtained collectively!
+
+Now, I did mention prizes for those who made a few milestones. If you reply to this email with details on how I can send your prize to you (be it bank details, PayPal, Beemit, snail mail address, or cryptocurrency wallet \*), I'll let you know when I've paid your prize. It's yours to spend as you wish, and I hope you'll put it to good use doing a little bit of good.
+
+You can consult the invitation email if you need a refresher on what was up for grabs.
+
+> A minor change - the prizes for completing 5/10 days will instead be for obtaining 10/20 stars. If you got at least 5 or 10 gold stars nothing changes, but you're now also elligible if you got several days' worth of silver stars to push you over the threshold. If you're unsure, you can check the number of stars you got [here on the leadboard](https://adventofcode.com/2019/leaderboard/private/view/432888?order=stars).
+
+> A clarification - one prize only per person, so you won't get a prize for getting 20+ stars if you made the top five.
+
+If you'd like suggestions for what to do with your prize, here are a few of the ideas I provided in the initial invitation.
+
+- Financial sponsorship for a developer or project with [GitHub Sponsors](https://github.com/sponsors) / [Open Collective](https://opencollective.com/) / [Patreon](https://www.patreon.com/) / [Ko-Fi](https://www.ko-fi.com/) / etc...
+- Grabbing coffee to catch up with that friend you haven't seen in months
+- A donation to a charitable organisation whose work you support
+- Funding your next personal project
+- Supporting the [Advent of Code itself](https://adventofcode.com/support)
+
+Once again, thank you for being a part of the Advent of Code this year with me! I hope you've had as good as December as me!
+
+Expect me to hear from me again at the end of this year!
+
+You can always reach me sooner though, whether through this email or social media, you'll know how to find me. May 2020 treat you well!
+
+Regards, Nicholas
+
+PS - I automated daily snapshots of the leaderboard if you're interested in the data, you can find them on [GitHub](https://github.com/nchlswhttkr/advent-of-code).
+
+\* I have no idea how cryptocurrencies work, please do not go with this option.
