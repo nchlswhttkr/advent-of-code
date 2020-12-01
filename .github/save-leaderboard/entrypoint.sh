@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -eu
 
 export GITHUB_TOKEN=$1
 export OAUTH_SESSION_TOKEN=$2
@@ -15,7 +15,7 @@ curl https://adventofcode.com/$YEAR/leaderboard/private/view/$LEADERBOARD_ID.jso
 
 git config --global user.name "Nicholas Whittaker"
 git config --global user.email "26531118+nchlswhttkr@users.noreply.github.com"
-git checkout master
+git checkout $GITHUB_REF
 git add leaderboards/
 git commit -m "Add leaderboard for day $DAY, $YEAR"
-git push https://nchlswhttkr:$GITHUB_TOKEN@github.com/nchlswhttkr/advent-of-code.git master
+git push https://nchlswhttkr:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git $GITHUB_REF
