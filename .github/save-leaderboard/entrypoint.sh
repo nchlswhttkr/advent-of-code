@@ -18,4 +18,4 @@ git config --global user.email "26531118+nchlswhttkr@users.noreply.github.com"
 git checkout $GITHUB_REF
 git add leaderboards/
 git commit -m "Add leaderboard for day $DAY, $YEAR"
-git push https://nchlswhttkr:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git $GITHUB_REF
+git push https://nchlswhttkr:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
