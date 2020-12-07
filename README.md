@@ -1,8 +1,8 @@
 # Advent of Code 2019
 
-Scraping my private leaderboard for Advent of Code at the end of each day in December with GitHub Actions.
+Scraping my private leaderboard for [Advent of Code](https://adventofcode.com) each December with GitHub Actions.
 
-https://adventofcode.com
+My solutions/discussions for problems can be found on a [separate repo](https://github.com/nchlswhttkr/coding).
 
 ```sh
 node harvest-stats.js <year>
