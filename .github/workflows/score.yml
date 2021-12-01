@@ -2,7 +2,7 @@ name: Get daily scores from leaderboard
 
 on:
   schedule:
-    - cron: "0 13 1-25,31 12 *" # midnight AEST each day, and on the new year
+    - cron: "0 13 1-25,31 12 *" # midnight ADST/UTC+11 each day and on the new year
 
 jobs:
   save-leaderboard:
